@@ -36,7 +36,10 @@ namespace LinkedList
             //minLista.Clear();
             //Console.WriteLine("Count: " + minLista.Count());
 
-            Console.WriteLine(minLista.ElementAt(1));
+            Console.WriteLine(minLista.ElementAt(2));
+
+            minLista.RemoveFirst(); 
+            Console.WriteLine(minLista.First.Value);
         }
     }
 }

@@ -67,7 +67,18 @@ namespace LinkedList
 
         public void RemoveFirst()
         {
-            
+            // om första inte är null så sätter den första till nästa o.s.v
+            // den tar också bort 1 från count
+            // om första är null så gör den ingenting
+            if (First != null)
+            {
+                First = First.Next;
+                count--;
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }
