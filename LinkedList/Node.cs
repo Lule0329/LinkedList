@@ -9,6 +9,7 @@ namespace LinkedList
     public class Node<T>
     {
         public Node<T> Next;
+        public Node<T> Prev;
         public T Value;
 
         public override string ToString()

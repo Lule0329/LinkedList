@@ -70,8 +70,8 @@ namespace LinkedList
             skostorlekar.Add("anton", 45);
             // hämta ett värde genom att ange en nyckel
             // skriver ut "anton skostorlek: 45"
-            Console.WriteLine("anton skostorlek: " + skostorlekar.Get("anton"));
-            Console.WriteLine("chris skostorlek: " + skostorlekar.Get("chris"));
+          //Console.WriteLine("anton skostorlek: " + skostorlekar.Get("anton"));
+          //Console.WriteLine("chris skostorlek: " + skostorlekar.Get("chris"));
         }
 
         public static List<T> Duplicates<T>(List<T> minLista)
@@ -113,10 +113,10 @@ namespace LinkedList
                 
             }
 
-            public V Get(K key)
-            {
+            //public V Get(K key)
+            //{
                 
-            }
+            //}
         }
 
         public class Pair<T, U>
